@@ -32,6 +32,7 @@ CREATE TABLE Categories (
     FOREIGN KEY (EventId) REFERENCES Events(EventId)
 );
 
+--creating Routes table
 CREATE TABLE Routes (
     RouteId INT IDENTITY(1,1) PRIMARY KEY,
     EventId INT NOT NULL,
