@@ -63,6 +63,7 @@ CREATE TABLE Results (
     FOREIGN KEY (EnrolmentId) REFERENCES Enrolments(EnrolmentId)
 );
 
+--inserting data into Users table
 INSERT INTO Users (Role, FullName, Email, PasswordHash) VALUES
 ('Organiser', 'Thandiwe Mokoena', 'thandiwe@raceday.co.za', 'HASH_PLACEHOLDER_1'),
 ('Organiser', 'Pieter van Wyk', 'pieter@raceday.co.za', 'HASH_PLACEHOLDER_2'),
