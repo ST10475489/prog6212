@@ -83,6 +83,7 @@ INSERT INTO Categories (EventId, CategoryName, DistanceKm, MaxParticipants) VALU
 (2, '20km Charity Ride', 20.00, 100),
 (3, 'Half Marathon', 21.10, 300);
 
+--inserting data in Enrolments table
 INSERT INTO Enrolments (ParticipantId, CategoryId, Status) VALUES
 (3, 1, 'Confirmed'),
 (3, 3, 'Confirmed'),
