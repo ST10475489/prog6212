@@ -90,6 +90,7 @@ INSERT INTO Enrolments (ParticipantId, CategoryId, Status) VALUES
 (4, 2, 'Confirmed'),
 (4, 4, 'Confirmed');
 
+-- inserting data in Results table
 INSERT INTO Results (EnrolmentId, FinishTime, Position) VALUES
 (1, '00:28:14', 12),
 (3, '01:05:47', 8);
