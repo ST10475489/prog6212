@@ -22,6 +22,7 @@ CREATE TABLE Events (
     FOREIGN KEY (OrganiserId) REFERENCES Users(UserId)
 );
 
+--creating Categories table
 CREATE TABLE Categories (
     CategoryId INT IDENTITY(1,1) PRIMARY KEY,
     EventId INT NOT NULL,
