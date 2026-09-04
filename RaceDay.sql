@@ -73,7 +73,7 @@ INSERT INTO Users (Role, FullName, Email, PasswordHash) VALUES
 --inserting data into Events table
 INSERT INTO Events (OrganiserId, EventName, EventDate, Location, Description) VALUES
 (1, 'Pretoria Park Run Challenge', '2026-11-14', 'Pretoria, Gauteng', 'A family-friendly road running event through Pretoria parks.'),
-(1, 'Soweto Community Cycle', '2026-11-21', 'Soweto, Gauteng', 'A charity cycling event supporting local youth sports programmes.'),
+(1, 'The Soweto Marathon', '2026-11-21', 'Soweto, Gauteng', 'A charity cycling event supporting local youth sports programmes.'),
 (2, 'Durban Coastal Marathon', '2026-12-05', 'Durban, KwaZulu-Natal', 'A scenic marathon and half marathon along the Durban coastline.');
 
 --inserting data in Categories table
