@@ -43,6 +43,7 @@ CREATE TABLE Routes (
     FOREIGN KEY (EventId) REFERENCES Events(EventId)
 );
 
+--creating Enrolments table
 CREATE TABLE Enrolments (
     EnrolmentId INT IDENTITY(1,1) PRIMARY KEY,
     ParticipantId INT NOT NULL,
