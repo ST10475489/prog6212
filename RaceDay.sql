@@ -76,6 +76,7 @@ INSERT INTO Events (OrganiserId, EventName, EventDate, Location, Description) VA
 (1, 'Soweto Community Cycle', '2026-11-21', 'Soweto, Gauteng', 'A charity cycling event supporting local youth sports programmes.'),
 (2, 'Durban Coastal Marathon', '2026-12-05', 'Durban, KwaZulu-Natal', 'A scenic marathon and half marathon along the Durban coastline.');
 
+--inserting data in Categories table
 INSERT INTO Categories (EventId, CategoryName, DistanceKm, MaxParticipants) VALUES
 (1, '5km Fun Run', 5.00, 200),
 (1, '10km Road Race', 10.00, 150),
