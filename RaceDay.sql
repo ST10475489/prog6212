@@ -83,7 +83,8 @@ INSERT INTO Categories (EventId, CategoryName, DistanceKm, MaxParticipants) VALU
 (1, '5km Fun Run', 5.00, 200),
 (1, '10km Road Race', 10.00, 150),
 (2, '20km Charity Ride', 20.00, 100),
-(3, 'Half Marathon', 21.10, 300);
+(3, 'Half Marathon', 21.10, 300),
+(3, 'Full Marathon', 42.20, 400);
 
 --inserting data in Enrolments table
 INSERT INTO Enrolments (ParticipantId, CategoryId, Status) VALUES
