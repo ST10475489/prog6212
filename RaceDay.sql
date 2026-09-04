@@ -54,6 +54,7 @@ CREATE TABLE Enrolments (
     FOREIGN KEY (CategoryId) REFERENCES Categories(CategoryId)
 );
 
+--creating Results table
 CREATE TABLE Results (
     ResultId INT IDENTITY(1,1) PRIMARY KEY,
     EnrolmentId INT NOT NULL UNIQUE,
