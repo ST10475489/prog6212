@@ -1,3 +1,4 @@
+--creating database
 CREATE DATABASE RaceDay;
 
 CREATE TABLE Users (
