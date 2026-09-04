@@ -69,6 +69,7 @@ INSERT INTO Users (Role, FullName, Email, PasswordHash) VALUES
 ('Organiser', 'Pieter van Wyk', 'pieter@raceday.co.za', 'HASH_PLACEHOLDER_2'),
 ('Participant', 'Lerato Dube', 'lerato@example.com', 'HASH_PLACEHOLDER_3'),
 ('Participant', 'Sarah Naidoo', 'sarah@example.com', 'HASH_PLACEHOLDER_4');
+('Participant', 'Sarah Naidoo', 'sarah@example.com', 'HASH_PLACEHOLDER_5'),  
 
 --inserting data into Events table
 INSERT INTO Events (OrganiserId, EventName, EventDate, Location, Description) VALUES
