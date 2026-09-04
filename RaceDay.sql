@@ -1,6 +1,7 @@
 --creating database
 CREATE DATABASE RaceDay;
 
+--creating Users table
 CREATE TABLE Users (
     UserId INT IDENTITY(1,1) PRIMARY KEY,
     Role VARCHAR(20) NOT NULL,
